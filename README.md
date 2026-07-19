@@ -5,7 +5,7 @@ An end-to-end machine learning pipeline predicting company bankruptcy using fina
 ## Overview
 
 - **Dataset**: [Taiwan Economic Journal company bankruptcy data (1999–2009)](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction), via Kaggle
-- **Problem type**: Binary classification, heavily imbalanced (~3% of companies went bankrupt)
+- **Problem type**: Binary classification, heavily imbalanced (3% of companies went bankrupt)
 - **Goal**: Predict bankruptcy risk from ~95 financial ratios, and communicate results in a business-friendly dashboard
 
 ## Pipeline
@@ -25,7 +25,7 @@ An end-to-end machine learning pipeline predicting company bankruptcy using fina
 | Random Forest | 0.948 | 0.498 | 0.50 |
 | **LightGBM** | **0.949** | **0.521** | 0.49 |
 
-Given the ~3% class imbalance, **PR-AUC** is the more informative metric — LightGBM was the strongest model here.
+Given the 3% class imbalance, **PR-AUC** is the more informative metric — LightGBM was the strongest model here.
 
 Top predictive features: interest-bearing debt interest rate, total asset growth rate, revenue per person, quick ratio — leverage, liquidity, and efficiency ratios dominate over raw profitability measures.
 
