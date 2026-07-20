@@ -7,6 +7,8 @@ An end-to-end machine learning pipeline predicting company bankruptcy using fina
 - **Dataset**: [Taiwan Economic Journal company bankruptcy data (1999–2009)](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction), via Kaggle
 - **Problem type**: Binary classification, heavily imbalanced (3% of companies went bankrupt)
 - **Goal**: Predict bankruptcy risk from ~95 financial ratios, and communicate results in a business-friendly dashboard
+- 
+![Dashboard preview](images/Sashboard.png)
 
 ## Pipeline
 
